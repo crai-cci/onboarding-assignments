@@ -1,0 +1,38 @@
+.testimonials{
+    background-image: url(/content/images/pattern-quotes.png), url(/content/images/pattern-curve.png), url(/content/images/pattern-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 20%,10%,80%;
+    background-position-y: 26%,100%,0;
+     font-family: $family, sans-serif;
+    font-size: $font-main;
+    color:$first-color;
+    padding-bottom: 13%;
+    
+        .dark{
+            font-size: $font-p;  
+            font-weight: 700;
+            color: $first-color;
+            margin-left: -40px;
+          }
+          .light{
+            font-size: $font-p;
+            font-weight: 500;
+            color: $second-color;
+        }
+        
+        .main-p{
+            padding-top: 20%;
+            margin-left: -40px;
+            color: $first-color;
+        }
+        .pagination-controls{
+    position: absolute;
+    bottom: -15px;
+    background: red;
+    width: 90px;
+    height: 45px;
+    right: 37%;
+    border-radius: 40px;
+}
+    
+}
