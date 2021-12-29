@@ -1,0 +1,61 @@
+body {
+  background-color: #091930;
+}
+
+.card {
+  -webkit-box-shadow: 20px 20px 10px #050e1b;
+          box-shadow: 20px 20px 10px #050e1b;
+  background-color: #14253d;
+  font-size: 14px;
+}
+
+@media (min-width: 767px) {
+  .card {
+    width: 50%;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1040px) {
+  .card {
+    width: 25%;
+    font-size: 14px;
+  }
+}
+
+.card h5 {
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .card h5 {
+    font-size: 1.2rem;
+  }
+}
+
+.card .stat-para {
+  color: #00fff7;
+}
+
+.card .separator {
+  height: 2px;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
+}
+
+.card .footer-para {
+  color: #fff;
+}
+
+.card .footer-para .footer-span {
+  color: #8bacda;
+}
+
+@media (min-width: 768px) {
+  .card .jules-profile {
+    width: 5%;
+    height: 5%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
