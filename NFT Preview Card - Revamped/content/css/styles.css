@@ -1,0 +1,146 @@
+/* Mixin for font size */
+body {
+  background-color: #091930;
+  font-family: Outfit, sans-serif;
+}
+
+a {
+  -webkit-transition: color 2s;
+  -webkit-transition: color 500ms;
+  transition: color 500ms;
+}
+
+h5.card-text a {
+  color: white;
+}
+
+h5.card-text a:hover {
+  color: #00fff7;
+  text-decoration: none;
+}
+
+.footer-text a {
+  color: white;
+}
+
+.footer-text a:hover {
+  color: #00fff7;
+  text-decoration: none;
+}
+
+.active-state a:hover .overlay {
+  display: block;
+}
+
+.active-state a:hover .icon-view {
+  display: inline-block;
+}
+
+h5 {
+  color: white;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+@media (min-width: 768px) {
+  h5 {
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+}
+
+.card {
+  -webkit-box-shadow: 20px 20px 10px #050e1b;
+          box-shadow: 20px 20px 10px #050e1b;
+  background-color: #14253d;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+@media (min-width: 767px) {
+  .card {
+    width: 50%;
+    font-size: 14px;
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 1040px) {
+  .card {
+    width: 25%;
+    font-size: 14px;
+    font-size: 0.875rem;
+  }
+}
+
+.card .card-logo {
+  border: 1px solid #14253d;
+  border-radius: 0.5rem;
+}
+
+.card .text-blue {
+  color: #8bacda;
+}
+
+.card .text-cyan {
+  color: #00fff7;
+}
+
+.card hr {
+  height: 2px;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
+}
+
+.card .footer-text {
+  color: #fff;
+}
+
+.card .footer-text .footer-span {
+  color: #8bacda;
+}
+
+@media (min-width: 768px) {
+  .card .jules-profile {
+    width: 5%;
+    height: 5%;
+  }
+}
+
+.card .overlay {
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 255, 247, 0.5);
+  display: none;
+  border: 1px solid #14253d;
+  border-radius: 0.5rem;
+}
+
+.card .icon-view {
+  top: 40%;
+  right: 38%;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .card .icon-view {
+    right: 42%;
+    top: 43%;
+  }
+}
+
+@media (min-width: 962px) {
+  .card .icon-view {
+    right: 44%;
+    top: 43%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card .icon-view {
+    right: 40%;
+    top: 43%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,42 @@
+// Place the code below
+body{
+    background-color: rgb(9, 25, 48);
+    font-family: $card-font-family;
+}
+// code to change into active state on hover
+a {
+    -webkit-transition: color 2s;
+    transition: color 500ms;
+}
+h5.card-text{
+    a{
+        color: $title-color;
+        &:hover{
+        color: $card-cyan-color;
+        text-decoration: none;
+    }
+    }
+}
+.footer-text{
+    a{
+        color: $title-color;
+        &:hover{
+            color:$card-cyan-color;
+            text-decoration: none;
+        }   
+    } 
+}
+.active-state{
+    a:hover{
+        .overlay{
+            display: block;
+        }
+        .icon-view{
+            display: inline-block;
+
+        }
+    }
+}
+
+
+

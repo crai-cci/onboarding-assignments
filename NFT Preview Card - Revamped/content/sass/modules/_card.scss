@@ -1,0 +1,67 @@
+.card{
+    box-shadow: 20px 20px 10px rgb(5, 14, 27) ;
+    background-color: $card-body-color;
+    @include font-size(14px);
+    @media (min-width:767px) {
+        width: 50%;
+        @include font-size(14px);
+    }
+    @media (min-width:1040px) {
+        width: 25%;
+        @include font-size(14px);
+    }
+    .card-logo{
+        border: 1px solid $card-body-color;
+        border-radius: 0.5rem;
+    }
+    .text-blue{
+        color: $card-blue-color;
+    }
+
+    .text-cyan{
+        color: $card-cyan-color;
+    }
+    hr{
+        height:2px;
+        border-width:0;
+        color:gray;
+        background-color:gray;
+    }
+    .footer-text{
+        color: #fff;
+        .footer-span{
+            color: $card-blue-color;
+        }
+    }
+    .jules-profile{
+        @media (min-width:768px) {
+            width: 5%;
+            height: 5%;
+        }
+    }
+    .overlay {
+        top: 0;
+        bottom:0;
+        background: $overlay-color;
+        display: none;
+        border: 1px solid $card-body-color;
+        border-radius: 0.5rem;
+    }
+    .icon-view{
+        top: 40%;
+        right: 38%;
+        display: none;
+        @media (min-width:768px) {
+            right: 42%;
+            top: 43%;
+        }
+        @media (min-width:962px) {
+            right: 44%;
+            top: 43%;
+        }
+        @media (min-width:1200px) {
+            right: 40%;
+            top: 43%;
+        }
+    }
+}
