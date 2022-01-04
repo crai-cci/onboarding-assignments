@@ -1,0 +1,17 @@
+h3{
+    color: $card-title-white;
+    font-family: $font-family-lexend, sans-serif;
+    .purple-text{
+        color: $purple-text-color;
+    }
+}
+p{
+    color: $card-text-white;
+    font-family: $font-family-inter, sans-serif;
+}
+span{
+    color: $card-title-white;
+}
+small{
+    color: $card-stats-text;
+}

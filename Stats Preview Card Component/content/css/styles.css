@@ -1,0 +1,60 @@
+/* Import all Base Files */
+/* Mixin for font size */
+body {
+  background-color: #090b1a;
+}
+
+.card {
+  background-color: #1b1938;
+  word-spacing: 3px;
+}
+
+h3 {
+  color: white;
+  font-family: Lexend Deca, sans-serif;
+}
+
+h3 .purple-text {
+  color: #aa5cdb;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.78);
+  font-family: Inter, sans-serif;
+}
+
+span {
+  color: white;
+}
+
+small {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.card {
+  margin-top: 30%;
+}
+
+@media (min-width: 768px) {
+  .card {
+    margin-top: 20%;
+  }
+}
+
+.card .overlay {
+  top: 0;
+  bottom: 0;
+  background: rgba(170, 92, 219, 0.5);
+}
+
+.card .card-body {
+  font-size: 15px;
+  font-size: 0.9375rem;
+}
+
+@media (min-width: 768px) {
+  .card .card-body {
+    margin-left: 15%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
