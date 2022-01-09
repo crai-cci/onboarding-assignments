@@ -1,0 +1,12 @@
+body{
+    background-image: url("content/images/styling-images/pattern-background-mobile.png");
+    @media (min-width:768px) {
+        background-image: url("content/images/styling-images/pattern-background-desktop.png");
+    }
+    @media (min-width:768px){
+        background-image: url("content/images/styling-images/pattern-background-desktop.png");
+        background-size: 100%;
+    }
+    background-repeat: no-repeat;
+    background-color: $background-body;
+}
